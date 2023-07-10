@@ -110,10 +110,16 @@ def get_resource_path(relative_path):
 window = tk.Tk()
 window.title("Bonelab Save Manager")
 
-window.geometry("352x300")
-
 icon_path = get_resource_path("icon.ico")
 window.iconbitmap(icon_path)
+
+screen_width = window.winfo_screenwidth()
+screen_height = window.winfo_screenheight()
+
+x = (screen_width - 352) // 2
+y = (screen_height - 300) // 2
+
+window.geometry(f"352x300+{x}+{y}")
 
 listbox = tk.Listbox(window)
 listbox.pack(fill=tk.BOTH, expand=True)
