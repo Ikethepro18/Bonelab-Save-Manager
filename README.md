@@ -16,4 +16,5 @@ The "Rename Save" button allows you to rename the selected save file, for easier
 ![](https://i.imgur.com/eRAxOO0.png)
 
 And the "Delete Save" button deletes the selected save. Don't worry though as this does come with a confirmation, so no accidental deletions
+
 ![](https://i.imgur.com/S29PHWx.png)
